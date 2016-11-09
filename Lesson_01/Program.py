@@ -1,0 +1,11 @@
+print("Hello")
+print("Hi there!")
+print(" (\_/)")
+print("(='.'=)")
+print("(\")_(\")")
+
+print("   _  ")
+print(" _(\")_ ")
+print("(_ . _)")
+print(" / : \\")
+print("(_/ \_)")
