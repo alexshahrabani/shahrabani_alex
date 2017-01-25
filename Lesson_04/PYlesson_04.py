@@ -1,37 +1,46 @@
-Item1 = input("What would you like to eat?")
+item1 = input("Please enter item 1: ")
+Price1 = float(input("Please enter the price: "))
 
-Item1p = int(input("That would be $4.50")
-             
-print("Sounds good!")
+item2 = input("Please enter item 2: ")
+Price2 = float(input("Please enter the price: "))
 
-Item2 = input("Would you like french fries with that?")
+item3 = input("please enter item 3: ")
+Price3 = float(input("Please enter the price: "))
 
-print("Sounds good!")
+Total = ("Total:")
 
-Item2p = int(input("That would be $3.00")
+Subtotal = ("Subtotal:")
 
-print("Alright!")
+Sub = (Price1 + Price2 + Price3)
 
-Item3 = input("How about a drink with add that food?")
+Tax = ("Tax:")
 
-Item3p = int(input("That would be $1.50")
+Taxes = (Sub * 0.07)
 
-print("Your total will be", Item1p + Item2p + Item3p)
+print("<" * 15, "Recipt", ">" * 15)
+print("\n")
 
-print("<<<<<<<<{Recipt}>>>>>>>>")
+def printLine(left, right): #Prints each individual line in the recipt
+    print("* {:<15}.....{:>15.2f} *".format(left, right))
+                                    
 
-print(Item1p + Item2p + Item3p)
+printLine(item1, Price1)
+printLine(item2, Price2)
+printLine(item3, Price3)
+print("\n")
+printLine(Subtotal, Sub)
+printLine(Tax, Taxes)
+printLine(Total, Sub + Taxes)
 
-print("Would you like to add a tip?")
-
-tip = int(input("Tip Amount:"))
-
+print("-" * 38)
+print("* Thank you for your support *")
 
 
 
 
 
-             
+
+
 
 
 
