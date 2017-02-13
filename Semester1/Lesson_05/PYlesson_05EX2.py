@@ -7,9 +7,9 @@ Price3 = input("Please enter the price of you third item:")
 Item4 = input("Please enter your fourth item:")
 Price4 = input("Please enter the price of your fourth item:")
 
-Subtotal = (Price1 + Price2 + Price3 + Price4)
 
 print("<<<<<<<<<<Recipt>>>>>>>>>>")
+
 
 
 
