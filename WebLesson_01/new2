@@ -1,0 +1,26 @@
+<html>
+<head>
+	<style type = "text/css">
+	h1{
+		color: red;
+		text-align: center;
+		background-color: blue;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		
+		border: 3px solid red;
+	}
+	
+	p {
+		color: red;
+		background-color: blue;
+		border: 2px solid red;
+	}
+	</style>
+</head>
+<body>
+	<h1>Alex Shahrabani</h1>
+	<p>Hello! Im Alex.</p>
+	<p>I am 15 years of age.</p>
+</body>
+</html>
